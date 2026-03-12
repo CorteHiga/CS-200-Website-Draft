@@ -142,7 +142,6 @@ footer a {
     font-weight: <weight>;
     font-style: normal;
 }
-
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 620px), print {
   /* Tablet Viewport: Show tab-desk class, hide mobile class */
@@ -184,6 +183,7 @@ footer a {
 /* Media Query for Large Desktop Viewports */
 @media screen and (min-width: 1921px) {
   body {
+    background: linear-gradient(#f6eee4, #78593a);
   }
   #wrapper {
     width: 1920px;
