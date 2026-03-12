@@ -58,7 +58,7 @@ nav li a {
 /* Style rules for main content */
 main {
     padding: 2%;
-    font-family: Verdana, Arial, Lora, sans-serif;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 main p {
@@ -117,7 +117,7 @@ main ul {
 footer {
     text-align: center;
     font-size: 0.85em;
-    background-color: #5877ff;
+    background-color: #001883;
     color: #f6eee4;
     padding: 1% 0%;
 }
@@ -183,7 +183,7 @@ footer a {
 /* Media Query for Large Desktop Viewports */
 @media screen and (min-width: 1921px) {
   body {
-    background: linear-gradient(#f6eee4, #78593a);
+    background-image: linear-gradient(#00082e, #00105e);
   }
   #wrapper {
     width: 1920px;
