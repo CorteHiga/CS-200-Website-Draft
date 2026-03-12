@@ -7,17 +7,13 @@ body, header, nav, main, footer, img, h1, h3, ul {
 
 /* Style rules for body and images */
 body {
-    background-color: #f6eee4;
+    background-image: linear-gradient(#bfbdff, #6efcd9);
 }
 
 img {
     max-width: 100%;
     display: block;
 }
-
-/* Style rules for mobile viewport. */
-
-/* Style rules to show mobile class and hide tab-desk class. */
 
 /* Style rules for navigation area */
 .mobile {
@@ -79,7 +75,7 @@ main ul {
 
 /* Style rules for class and id selectors */
 .link {
-    color: #4d3319;
+    color: #5877ff;
     text-decoration: none;
     font-weight: bold;
     font-style: italic;
@@ -105,7 +101,7 @@ main ul {
 }
 
 .tel-link {
-  background-color: #2a1f14;
+  background-color: #5877ff;
   padding: 2%;
   width: 80%;
   margin: 0 auto;
@@ -121,7 +117,7 @@ main ul {
 footer {
     text-align: center;
     font-size: 0.85em;
-    background-color: #2a1f14;
+    background-color: #5877ff;
     color: #f6eee4;
     padding: 1% 0%;
 }
@@ -132,9 +128,12 @@ footer a {
 }
 
 .mobile h1 {
-    font-family: "Emblema One", system-ui;
-    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
     font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
 }
 
 .mobile h3 {
@@ -142,56 +141,4 @@ footer a {
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-}
-
-/* Media Query for Tablet Viewport */
-@media screen and (min-width: 620px), print {
-  /* Tablet Viewport: Show tab-desk class, hide mobile class */
-  .tab-desk {
-    display: block;
-  }
-  .mobile {
-    display: none;
-  }
-  /* Tablet Viewport: Style rules for nav area */
-  nav li {
-    border-top: none;
-    display: inline-block;
-    font-size: 1.25em;
-  }
-  nav li a {
-    padding: 0.5em;
-  }
-}
-
-/* Media Query for Desktop Viewport */
-@media screen and (min-width: 1000px), print {
-    /* Desktop Viewport: Style rules for nav area */
-    nav li {
-    font-size: 1.5em;
-    }
-    nav li a {
-    padding: 0.5em 1.5em;
-    }
-    nav li a:hover {
-    color: #2a1f14;
-    background-color: #f6eee4;
-    }
-    /* Desktop Viewport: Style rules for main content */
-    #info ul {
-    margin-left: 5%;
-    }
-}
-/* Media Query for Large Desktop Viewports */
-@media screen and (min-width: 1921px) {
-  body {
-    background: linear-gradient(#f6eee4, #78593a);
-  }
-  #wrapper {
-    width: 1920px;
-    margin: 0 auto;
-  }
-  main {
-    background-color: #f6eee4;
-  }
 }
