@@ -13,9 +13,18 @@ body {
     color: #f0ecff;
 }
 
-img {
+img, iframe {
     max-width: 100%;
     display: block;
+    margin: 0 auto;
+
+}
+
+figcaption {
+  color: white;
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 0.5em;
 }
 
 /* Style rules for navigation area */
