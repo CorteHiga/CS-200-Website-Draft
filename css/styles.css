@@ -119,6 +119,14 @@ main ul {
 #contact {
     text-align: center;
 }
+
+/* Style rules for form elements */
+.form-label {
+    font-size: 1.25em;
+    font-weight: 600;
+    color: white;
+}
+
 .tel-link {
     background-color: #7b9cff;
     padding: 2%;
