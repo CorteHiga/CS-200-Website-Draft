@@ -1,32 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Landing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
 <body>
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="css/styles.css">
-        <title>About</title>
-    </head>
+    <header class="mobile">
+        <h1>Going Back to the Moon</h1>
+        <h3>Landing on the Moon</h3>
+    </header>
 
-    <header>
-        <h1>Corte Higa's Website</h1>
-        <h3>About</h3>
+    <header class="tab-desk">
+        <h1>Going Back to the Moon</h1>
+        <h3>Landing on the Moon</h3>
     </header>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="rocket.html">The Rocket</a></li>
+            <li><a href="landers.html">The Landers</a></li>
             <li><a href="contact.html">Contact</a></li>
+        </ul>
     </nav>
-
-    <!-- main area for page content -->
     <main>
-        <div id="test">
-            <h2>About</h2>
-            <p>Paragraph</p>
+        <div id="main-content">
+            <h2>The Landers</h2>
+            <p>Unlike the Apollo program, the Artemis program is using two landers made by commercial companies. Both of them are reusable and will start to be used no earlier than 2027.</p>
+            <h3>SpaceX: Starship HLS (Human Landing System)</h3>
+            <p>SpaceX's lander is called Starship HLS. It is a variant of the Starship spacecraft and is planned to be used starting on Artemis IV. HLS will dock to the Orion spacecraft in Lunar orbit before descending to the lunar surface. Once there, it will be used on the Moon for about a week before transporting the astronauts back up to Orion. Unlike the regular Starship vehicle, the HLS lander will not reenter Earth's atmosphere and will stay in space.</p>
+            <figure>
+                <img src="images/starship-hls.jpg" alt="SpaceX Starship HLS Render. SpaceX" height="300" width="500">
+                <figcaption>SpaceX Starship HLS Render. SpaceX</figcaption>
+            </figure>
+
+            <h3>Blue Origin: Blue Moon</h3>
+            <p>Blue Origin's lander is called Blue Moon. It is a lunar lander designed for the Artemis program and is planned to be used starting on Artemis V. Similar to Starship HLS, Blue Moon will dock with the Orion spacecraft in Lunar orbit and descend to the Moon. After a few days, it will return back to the Orion spacecraft.</p>
+            <figure>
+                <img src="images/blue-moon.jpg" alt="Blue Origin Blue Moon Render. Blue Origin" height="300" width="500">
+                <figcaption>Blue Origin Blue Moon Render. Blue Origin</figcaption>
         </div>
     </main>
     <footer>
-        <a href="mailto:corte@hawaii.edu">corte@hawaii.edu
+        <p>Contact me!</p>
+        <a href="mailto:fakeemailaddress@hawaii.edu">fakeemailaddress@hawaii.edu</a>
     </footer>
 </body>
+</html>
